@@ -78,7 +78,7 @@ void Main::OnButtonClicked(wxCommandEvent& evt)
 				{
 					btns[y * nFieldWidth + x]->SetBackgroundColour(*wxBLACK);
 					btns[y * nFieldWidth + x]->SetForegroundColour(*wxYELLOW);
-
+					
 					btns[y * nFieldWidth + x]->SetFont(wxFont(6, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_BOLD, false));
 
 					btns[y * nFieldWidth + x]->SetLabel("        ,--.!,\n     __/   -*-\n   ,d08b.  '|`\n   0088MM     \n   `9MMP'     ");
